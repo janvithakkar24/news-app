@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newsapp-dev-da80c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::442727737780:role/amplify-newsapp-dev-da80c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::442727737780:role/amplify-newsapp-dev-da80c-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-newsapp-dev-da80c-deployment",
+      "UnauthRoleName": "amplify-newsapp-dev-da80c-unauthRole",
+      "StackName": "amplify-newsapp-dev-da80c",
+      "StackId": "arn:aws:cloudformation:ap-south-1:442727737780:stack/amplify-newsapp-dev-da80c/ef55a7d0-021d-11ef-9268-061a47fda052",
+      "AmplifyAppId": "d3bw5d6976qag1"
+    }
+  },
+  "auth": {
+    "newsapp46244b9d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-newsapp-dev-da80c-deployment/amplify-cfn-templates/auth/newsapp46244b9d-cloudformation-template.json",
+        "logicalId": "authnewsapp46244b9d"
+      },
+      "lastPushTimeStamp": "2024-04-24T09:41:47.124Z",
+      "output": {
+        "UserPoolId": "ap-south-1_DwCaLpi5X",
+        "AppClientIDWeb": "6dojljvvqdios9peab5olqak55",
+        "AppClientID": "72legiudft5s89r7scgqau9sfq",
+        "IdentityPoolId": "ap-south-1:eba87195-ff4e-46d8-a2d0-801c6d4abe4f",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:442727737780:userpool/ap-south-1_DwCaLpi5X",
+        "IdentityPoolName": "newsapp46244b9d_identitypool_46244b9d__dev",
+        "UserPoolName": "newsapp46244b9d_userpool_46244b9d"
+      },
+      "lastPushDirHash": "V3d0puuajDPtWpjDfJsw0QnBW9I="
+    }
+  }
+}
